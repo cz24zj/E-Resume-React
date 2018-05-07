@@ -1,0 +1,11 @@
+{
+    "root": "build/",
+    "routers": {
+        "/**": "index.html"
+    },
+    "proxies": {
+        "/api": {
+            "origin": "http://resume-server-es.herokuapp.com"
+        }
+    }
+}
