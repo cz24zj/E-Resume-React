@@ -5,7 +5,7 @@
     },
     "proxies": {
         "/api": {
-            "origin": "http://resume-server-es.herokuapp.com"
+            "origin": "http://resume-server-es.herokuapp.com/api"
         }
     }
 }
